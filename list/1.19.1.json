@@ -1,0 +1,42 @@
+[
+    {
+        "rawVersion": "1.19.1-42.0.9",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.9"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.8",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.8"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.5",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.5"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.4",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.4"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.3",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.3"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.2",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.2"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.1",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.1"
+    },
+    {
+        "rawVersion": "1.19.1-42.0.0",
+        "mcversion": "1.19.1",
+        "version": "1.19.1-42.0.0"
+    }
+]
