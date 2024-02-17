@@ -1,4 +1,8 @@
 ```
+https://zkitefly.github.io/forge-maven-metadata/list/{mcversion}.json
+```
+
+```
 https://zkitefly.github.io/forge-maven-metadata/list.json
 ```
 
