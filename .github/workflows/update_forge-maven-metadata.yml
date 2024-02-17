@@ -1,0 +1,63 @@
+name: update_forge-maven-metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* */6 * * *' # 每六个小时运行一次
+  repository_dispatch:
+    types: [update_forge-maven-metadata]
+  push:
+    branches: [master]
+    paths: 
+      - '.github/workflows/update_forge-maven-metadata.yml'
+      - 'xml_to_json.py'
+
+jobs:
+  update_forge-maven-metadata:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Set time
+        shell: bash
+        run: |
+          sudo timedatectl set-timezone 'Asia/Shanghai'
+
+      - name: Set up Python
+        uses: actions/setup-python@main 
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
+
+      - name: Fetch forge-maven-metadata changes
+        id: fetch_changes
+        shell: bash
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          wget --debug -O forge-maven-metadata.xml "https://maven.minecraftforge.net/net/minecraftforge/forge/maven-metadata.xml"
+          python3 xml_to_json.py forge-maven-metadata.xml forge-maven-metadata.json
+          git add -A
+          if git diff-index --quiet HEAD; then
+            # No changes
+            echo 'changed=false' >> $GITHUB_OUTPUT
+          else
+            # Changes detected
+            echo 'changed=true' >> $GITHUB_OUTPUT
+            git commit -m "Update forge-maven-metadata history （`date '+%Y-%m-%d %H:%M:%S'`）
+
+          GitHub Action: https://github.com/${{ github.repository }}/actions/runs/$GITHUB_RUN_ID
+            "
+          fi
+
+      - name: Push changes
+        if: steps.fetch_changes.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
