@@ -1,0 +1,452 @@
+[
+    {
+        "rawVersion": "1.19-41.1.0",
+        "mcversion": "1.19",
+        "version": "41.1.0"
+    },
+    {
+        "rawVersion": "1.19-41.0.113",
+        "mcversion": "1.19",
+        "version": "41.0.113"
+    },
+    {
+        "rawVersion": "1.19-41.0.112",
+        "mcversion": "1.19",
+        "version": "41.0.112"
+    },
+    {
+        "rawVersion": "1.19-41.0.111",
+        "mcversion": "1.19",
+        "version": "41.0.111"
+    },
+    {
+        "rawVersion": "1.19-41.0.110",
+        "mcversion": "1.19",
+        "version": "41.0.110"
+    },
+    {
+        "rawVersion": "1.19-41.0.109",
+        "mcversion": "1.19",
+        "version": "41.0.109"
+    },
+    {
+        "rawVersion": "1.19-41.0.108",
+        "mcversion": "1.19",
+        "version": "41.0.108"
+    },
+    {
+        "rawVersion": "1.19-41.0.107",
+        "mcversion": "1.19",
+        "version": "41.0.107"
+    },
+    {
+        "rawVersion": "1.19-41.0.106",
+        "mcversion": "1.19",
+        "version": "41.0.106"
+    },
+    {
+        "rawVersion": "1.19-41.0.105",
+        "mcversion": "1.19",
+        "version": "41.0.105"
+    },
+    {
+        "rawVersion": "1.19-41.0.104",
+        "mcversion": "1.19",
+        "version": "41.0.104"
+    },
+    {
+        "rawVersion": "1.19-41.0.103",
+        "mcversion": "1.19",
+        "version": "41.0.103"
+    },
+    {
+        "rawVersion": "1.19-41.0.100",
+        "mcversion": "1.19",
+        "version": "41.0.100"
+    },
+    {
+        "rawVersion": "1.19-41.0.99",
+        "mcversion": "1.19",
+        "version": "41.0.99"
+    },
+    {
+        "rawVersion": "1.19-41.0.98",
+        "mcversion": "1.19",
+        "version": "41.0.98"
+    },
+    {
+        "rawVersion": "1.19-41.0.96",
+        "mcversion": "1.19",
+        "version": "41.0.96"
+    },
+    {
+        "rawVersion": "1.19-41.0.94",
+        "mcversion": "1.19",
+        "version": "41.0.94"
+    },
+    {
+        "rawVersion": "1.19-41.0.93",
+        "mcversion": "1.19",
+        "version": "41.0.93"
+    },
+    {
+        "rawVersion": "1.19-41.0.92",
+        "mcversion": "1.19",
+        "version": "41.0.92"
+    },
+    {
+        "rawVersion": "1.19-41.0.91",
+        "mcversion": "1.19",
+        "version": "41.0.91"
+    },
+    {
+        "rawVersion": "1.19-41.0.88",
+        "mcversion": "1.19",
+        "version": "41.0.88"
+    },
+    {
+        "rawVersion": "1.19-41.0.87",
+        "mcversion": "1.19",
+        "version": "41.0.87"
+    },
+    {
+        "rawVersion": "1.19-41.0.86",
+        "mcversion": "1.19",
+        "version": "41.0.86"
+    },
+    {
+        "rawVersion": "1.19-41.0.85",
+        "mcversion": "1.19",
+        "version": "41.0.85"
+    },
+    {
+        "rawVersion": "1.19-41.0.84",
+        "mcversion": "1.19",
+        "version": "41.0.84"
+    },
+    {
+        "rawVersion": "1.19-41.0.83",
+        "mcversion": "1.19",
+        "version": "41.0.83"
+    },
+    {
+        "rawVersion": "1.19-41.0.82",
+        "mcversion": "1.19",
+        "version": "41.0.82"
+    },
+    {
+        "rawVersion": "1.19-41.0.81",
+        "mcversion": "1.19",
+        "version": "41.0.81"
+    },
+    {
+        "rawVersion": "1.19-41.0.80",
+        "mcversion": "1.19",
+        "version": "41.0.80"
+    },
+    {
+        "rawVersion": "1.19-41.0.79",
+        "mcversion": "1.19",
+        "version": "41.0.79"
+    },
+    {
+        "rawVersion": "1.19-41.0.78",
+        "mcversion": "1.19",
+        "version": "41.0.78"
+    },
+    {
+        "rawVersion": "1.19-41.0.77",
+        "mcversion": "1.19",
+        "version": "41.0.77"
+    },
+    {
+        "rawVersion": "1.19-41.0.76",
+        "mcversion": "1.19",
+        "version": "41.0.76"
+    },
+    {
+        "rawVersion": "1.19-41.0.71",
+        "mcversion": "1.19",
+        "version": "41.0.71"
+    },
+    {
+        "rawVersion": "1.19-41.0.70",
+        "mcversion": "1.19",
+        "version": "41.0.70"
+    },
+    {
+        "rawVersion": "1.19-41.0.69",
+        "mcversion": "1.19",
+        "version": "41.0.69"
+    },
+    {
+        "rawVersion": "1.19-41.0.68",
+        "mcversion": "1.19",
+        "version": "41.0.68"
+    },
+    {
+        "rawVersion": "1.19-41.0.67",
+        "mcversion": "1.19",
+        "version": "41.0.67"
+    },
+    {
+        "rawVersion": "1.19-41.0.64",
+        "mcversion": "1.19",
+        "version": "41.0.64"
+    },
+    {
+        "rawVersion": "1.19-41.0.63",
+        "mcversion": "1.19",
+        "version": "41.0.63"
+    },
+    {
+        "rawVersion": "1.19-41.0.62",
+        "mcversion": "1.19",
+        "version": "41.0.62"
+    },
+    {
+        "rawVersion": "1.19-41.0.61",
+        "mcversion": "1.19",
+        "version": "41.0.61"
+    },
+    {
+        "rawVersion": "1.19-41.0.60",
+        "mcversion": "1.19",
+        "version": "41.0.60"
+    },
+    {
+        "rawVersion": "1.19-41.0.57",
+        "mcversion": "1.19",
+        "version": "41.0.57"
+    },
+    {
+        "rawVersion": "1.19-41.0.56",
+        "mcversion": "1.19",
+        "version": "41.0.56"
+    },
+    {
+        "rawVersion": "1.19-41.0.54",
+        "mcversion": "1.19",
+        "version": "41.0.54"
+    },
+    {
+        "rawVersion": "1.19-41.0.51",
+        "mcversion": "1.19",
+        "version": "41.0.51"
+    },
+    {
+        "rawVersion": "1.19-41.0.50",
+        "mcversion": "1.19",
+        "version": "41.0.50"
+    },
+    {
+        "rawVersion": "1.19-41.0.49",
+        "mcversion": "1.19",
+        "version": "41.0.49"
+    },
+    {
+        "rawVersion": "1.19-41.0.48",
+        "mcversion": "1.19",
+        "version": "41.0.48"
+    },
+    {
+        "rawVersion": "1.19-41.0.47",
+        "mcversion": "1.19",
+        "version": "41.0.47"
+    },
+    {
+        "rawVersion": "1.19-41.0.46",
+        "mcversion": "1.19",
+        "version": "41.0.46"
+    },
+    {
+        "rawVersion": "1.19-41.0.45",
+        "mcversion": "1.19",
+        "version": "41.0.45"
+    },
+    {
+        "rawVersion": "1.19-41.0.44",
+        "mcversion": "1.19",
+        "version": "41.0.44"
+    },
+    {
+        "rawVersion": "1.19-41.0.43",
+        "mcversion": "1.19",
+        "version": "41.0.43"
+    },
+    {
+        "rawVersion": "1.19-41.0.42",
+        "mcversion": "1.19",
+        "version": "41.0.42"
+    },
+    {
+        "rawVersion": "1.19-41.0.38",
+        "mcversion": "1.19",
+        "version": "41.0.38"
+    },
+    {
+        "rawVersion": "1.19-41.0.37",
+        "mcversion": "1.19",
+        "version": "41.0.37"
+    },
+    {
+        "rawVersion": "1.19-41.0.36",
+        "mcversion": "1.19",
+        "version": "41.0.36"
+    },
+    {
+        "rawVersion": "1.19-41.0.35",
+        "mcversion": "1.19",
+        "version": "41.0.35"
+    },
+    {
+        "rawVersion": "1.19-41.0.34",
+        "mcversion": "1.19",
+        "version": "41.0.34"
+    },
+    {
+        "rawVersion": "1.19-41.0.33",
+        "mcversion": "1.19",
+        "version": "41.0.33"
+    },
+    {
+        "rawVersion": "1.19-41.0.32",
+        "mcversion": "1.19",
+        "version": "41.0.32"
+    },
+    {
+        "rawVersion": "1.19-41.0.31",
+        "mcversion": "1.19",
+        "version": "41.0.31"
+    },
+    {
+        "rawVersion": "1.19-41.0.30",
+        "mcversion": "1.19",
+        "version": "41.0.30"
+    },
+    {
+        "rawVersion": "1.19-41.0.29",
+        "mcversion": "1.19",
+        "version": "41.0.29"
+    },
+    {
+        "rawVersion": "1.19-41.0.28",
+        "mcversion": "1.19",
+        "version": "41.0.28"
+    },
+    {
+        "rawVersion": "1.19-41.0.27",
+        "mcversion": "1.19",
+        "version": "41.0.27"
+    },
+    {
+        "rawVersion": "1.19-41.0.26",
+        "mcversion": "1.19",
+        "version": "41.0.26"
+    },
+    {
+        "rawVersion": "1.19-41.0.25",
+        "mcversion": "1.19",
+        "version": "41.0.25"
+    },
+    {
+        "rawVersion": "1.19-41.0.24",
+        "mcversion": "1.19",
+        "version": "41.0.24"
+    },
+    {
+        "rawVersion": "1.19-41.0.22",
+        "mcversion": "1.19",
+        "version": "41.0.22"
+    },
+    {
+        "rawVersion": "1.19-41.0.21",
+        "mcversion": "1.19",
+        "version": "41.0.21"
+    },
+    {
+        "rawVersion": "1.19-41.0.20",
+        "mcversion": "1.19",
+        "version": "41.0.20"
+    },
+    {
+        "rawVersion": "1.19-41.0.19",
+        "mcversion": "1.19",
+        "version": "41.0.19"
+    },
+    {
+        "rawVersion": "1.19-41.0.18",
+        "mcversion": "1.19",
+        "version": "41.0.18"
+    },
+    {
+        "rawVersion": "1.19-41.0.17",
+        "mcversion": "1.19",
+        "version": "41.0.17"
+    },
+    {
+        "rawVersion": "1.19-41.0.16",
+        "mcversion": "1.19",
+        "version": "41.0.16"
+    },
+    {
+        "rawVersion": "1.19-41.0.15",
+        "mcversion": "1.19",
+        "version": "41.0.15"
+    },
+    {
+        "rawVersion": "1.19-41.0.14",
+        "mcversion": "1.19",
+        "version": "41.0.14"
+    },
+    {
+        "rawVersion": "1.19-41.0.13",
+        "mcversion": "1.19",
+        "version": "41.0.13"
+    },
+    {
+        "rawVersion": "1.19-41.0.12",
+        "mcversion": "1.19",
+        "version": "41.0.12"
+    },
+    {
+        "rawVersion": "1.19-41.0.11",
+        "mcversion": "1.19",
+        "version": "41.0.11"
+    },
+    {
+        "rawVersion": "1.19-41.0.9",
+        "mcversion": "1.19",
+        "version": "41.0.9"
+    },
+    {
+        "rawVersion": "1.19-41.0.7",
+        "mcversion": "1.19",
+        "version": "41.0.7"
+    },
+    {
+        "rawVersion": "1.19-41.0.5",
+        "mcversion": "1.19",
+        "version": "41.0.5"
+    },
+    {
+        "rawVersion": "1.19-41.0.4",
+        "mcversion": "1.19",
+        "version": "41.0.4"
+    },
+    {
+        "rawVersion": "1.19-41.0.3",
+        "mcversion": "1.19",
+        "version": "41.0.3"
+    },
+    {
+        "rawVersion": "1.19-41.0.2",
+        "mcversion": "1.19",
+        "version": "41.0.2"
+    },
+    {
+        "rawVersion": "1.19-41.0.1",
+        "mcversion": "1.19",
+        "version": "41.0.1"
+    }
+]
