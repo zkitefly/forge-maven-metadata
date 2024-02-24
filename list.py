@@ -12,7 +12,7 @@ def process_version(version):
     mcversion = parts[0]
     forgeversion = parts[1]
     return {
-        "rawVersion": version,
+        "rawversion": version,
         "mcversion": mcversion,
         "version": forgeversion
     }
