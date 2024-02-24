@@ -10,10 +10,7 @@ def write_to_mcversion_file(mcversion, data):
 def process_version(version):
     parts = version.split('-')
     mcversion = parts[0]
-    if len(parts) == 2:
-        forgeversion = f"{mcversion}-{parts[1]}"
-    else:
-        forgeversion = '-'.join(parts[:-1])
+    forgeversion = parts[1]
     return {
         "rawVersion": version,
         "mcversion": mcversion,
