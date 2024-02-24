@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
 
       - name: Set time
         shell: bash
@@ -51,7 +51,7 @@ jobs:
           else
             # Changes detected
             echo 'changed=true' >> $GITHUB_OUTPUT
-            git commit -m "Update forge-maven-metadata history （`date '+%Y-%m-%d %H:%M:%S'`）
+            git commit -m "Update forge-maven-metadata (`date '+%Y-%m-%d %H:%M:%S'`)
 
           GitHub Action: https://github.com/${{ github.repository }}/actions/runs/$GITHUB_RUN_ID
             "
