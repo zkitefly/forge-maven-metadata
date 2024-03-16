@@ -1,5 +1,10 @@
 [
     {
+        "rawversion": "1.19.2-43.3.9",
+        "mcversion": "1.19.2",
+        "version": "43.3.9"
+    },
+    {
         "rawversion": "1.19.2-43.3.8",
         "mcversion": "1.19.2",
         "version": "43.3.8"
