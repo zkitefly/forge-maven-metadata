@@ -1215,6 +1215,11 @@
         "version": "41.0.1"
     },
     {
+        "rawversion": "1.19.4-45.2.12",
+        "mcversion": "1.19.4",
+        "version": "45.2.12"
+    },
+    {
         "rawversion": "1.19.4-45.2.10",
         "mcversion": "1.19.4",
         "version": "45.2.10"
