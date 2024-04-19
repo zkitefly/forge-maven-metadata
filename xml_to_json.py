@@ -13,8 +13,11 @@ def xml_to_json(xml_file, json_file):
     # Convert ElementTree to JSON using xmljson library
     json_data = parker.data(root)
 
-    with open(json_file, 'w') as f:
+    with open("raw-" + json_file, 'w') as f:
         json.dump(json_data, f, indent=4)
+
+    with open(json_file, 'w') as f:
+        json.dump(json_data, f)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

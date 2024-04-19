@@ -5,7 +5,7 @@ import json
 def write_to_mcversion_file(mcversion, data):
     filename = f"list/{mcversion}.json"
     with open(filename, 'w') as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f)
 
 def process_version(version):
     parts = version.split('-')
@@ -34,8 +34,11 @@ def process_json(input_file, output_file):
     for mcversion, version_list in mcversion_data.items():
         write_to_mcversion_file(mcversion, version_list)
 
-    with open(output_file, 'w') as f:
+    with open("raw-" + output_file, 'w') as f:
         json.dump(processed_versions, f, indent=4)
+
+    with open(output_file, 'w') as f:
+        json.dump(processed_versions, f)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
