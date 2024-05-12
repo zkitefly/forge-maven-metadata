@@ -35,6 +35,11 @@
         "version": "46.0.1"
     },
     {
+        "rawversion": "1.20.6-50.0.17",
+        "mcversion": "1.20.6",
+        "version": "50.0.17"
+    },
+    {
         "rawversion": "1.20.6-50.0.16",
         "mcversion": "1.20.6",
         "version": "50.0.16"
