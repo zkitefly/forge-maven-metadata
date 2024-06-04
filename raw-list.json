@@ -35,6 +35,21 @@
         "version": "46.0.1"
     },
     {
+        "rawversion": "1.20.6-50.1.0",
+        "mcversion": "1.20.6",
+        "version": "50.1.0"
+    },
+    {
+        "rawversion": "1.20.6-50.0.37",
+        "mcversion": "1.20.6",
+        "version": "50.0.37"
+    },
+    {
+        "rawversion": "1.20.6-50.0.36",
+        "mcversion": "1.20.6",
+        "version": "50.0.36"
+    },
+    {
         "rawversion": "1.20.6-50.0.34",
         "mcversion": "1.20.6",
         "version": "50.0.34"
@@ -183,6 +198,21 @@
         "rawversion": "1.20.6-50.0.0",
         "mcversion": "1.20.6",
         "version": "50.0.0"
+    },
+    {
+        "rawversion": "1.20.4-49.1.0",
+        "mcversion": "1.20.4",
+        "version": "49.1.0"
+    },
+    {
+        "rawversion": "1.20.4-49.0.53",
+        "mcversion": "1.20.4",
+        "version": "49.0.53"
+    },
+    {
+        "rawversion": "1.20.4-49.0.52",
+        "mcversion": "1.20.4",
+        "version": "49.0.52"
     },
     {
         "rawversion": "1.20.4-49.0.51",
@@ -563,6 +593,16 @@
         "rawversion": "1.20.2-48.0.0",
         "mcversion": "1.20.2",
         "version": "48.0.0"
+    },
+    {
+        "rawversion": "1.20.1-47.3.0",
+        "mcversion": "1.20.1",
+        "version": "47.3.0"
+    },
+    {
+        "rawversion": "1.20.1-47.2.36",
+        "mcversion": "1.20.1",
+        "version": "47.2.36"
     },
     {
         "rawversion": "1.20.1-47.2.32",
@@ -1413,6 +1453,16 @@
         "rawversion": "1.19-41.0.1",
         "mcversion": "1.19",
         "version": "41.0.1"
+    },
+    {
+        "rawversion": "1.19.4-45.3.0",
+        "mcversion": "1.19.4",
+        "version": "45.3.0"
+    },
+    {
+        "rawversion": "1.19.4-45.2.16",
+        "mcversion": "1.19.4",
+        "version": "45.2.16"
     },
     {
         "rawversion": "1.19.4-45.2.15",
