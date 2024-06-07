@@ -2070,6 +2070,16 @@
         "version": "44.0.0"
     },
     {
+        "rawversion": "1.19.2-43.4.0",
+        "mcversion": "1.19.2",
+        "version": "43.4.0"
+    },
+    {
+        "rawversion": "1.19.2-43.3.14",
+        "mcversion": "1.19.2",
+        "version": "43.3.14"
+    },
+    {
         "rawversion": "1.19.2-43.3.13",
         "mcversion": "1.19.2",
         "version": "43.3.13"
