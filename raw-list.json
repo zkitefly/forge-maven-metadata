@@ -1,5 +1,25 @@
 [
     {
+        "rawversion": "1.21-51.0.5",
+        "mcversion": "1.21",
+        "version": "51.0.5"
+    },
+    {
+        "rawversion": "1.21-51.0.4",
+        "mcversion": "1.21",
+        "version": "51.0.4"
+    },
+    {
+        "rawversion": "1.21-51.0.3",
+        "mcversion": "1.21",
+        "version": "51.0.3"
+    },
+    {
+        "rawversion": "1.21-51.0.1",
+        "mcversion": "1.21",
+        "version": "51.0.1"
+    },
+    {
         "rawversion": "1.21-51.0.0",
         "mcversion": "1.21",
         "version": "51.0.0"
@@ -38,6 +58,21 @@
         "rawversion": "1.20-46.0.1",
         "mcversion": "1.20",
         "version": "46.0.1"
+    },
+    {
+        "rawversion": "1.20.6-50.1.6",
+        "mcversion": "1.20.6",
+        "version": "50.1.6"
+    },
+    {
+        "rawversion": "1.20.6-50.1.5",
+        "mcversion": "1.20.6",
+        "version": "50.1.5"
+    },
+    {
+        "rawversion": "1.20.6-50.1.4",
+        "mcversion": "1.20.6",
+        "version": "50.1.4"
     },
     {
         "rawversion": "1.20.6-50.1.3",
