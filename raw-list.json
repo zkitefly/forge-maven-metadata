@@ -1605,6 +1605,11 @@
         "version": "41.0.1"
     },
     {
+        "rawversion": "1.19.4-45.3.3",
+        "mcversion": "1.19.4",
+        "version": "45.3.3"
+    },
+    {
         "rawversion": "1.19.4-45.3.2",
         "mcversion": "1.19.4",
         "version": "45.3.2"
@@ -2208,6 +2213,16 @@
         "rawversion": "1.19.3-44.0.0",
         "mcversion": "1.19.3",
         "version": "44.0.0"
+    },
+    {
+        "rawversion": "1.19.2-43.4.2",
+        "mcversion": "1.19.2",
+        "version": "43.4.2"
+    },
+    {
+        "rawversion": "1.19.2-43.4.1",
+        "mcversion": "1.19.2",
+        "version": "43.4.1"
     },
     {
         "rawversion": "1.19.2-43.4.0",
