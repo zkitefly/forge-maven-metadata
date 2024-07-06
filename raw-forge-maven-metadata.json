@@ -2,11 +2,12 @@
     "groupId": "net.minecraftforge",
     "artifactId": "forge",
     "versioning": {
-        "release": "1.21-51.0.21",
-        "latest": "1.21-51.0.21",
-        "lastUpdated": 20240702190021,
+        "release": "1.21-51.0.22",
+        "latest": "1.21-51.0.22",
+        "lastUpdated": 20240706184643,
         "versions": {
             "version": [
+                "1.21-51.0.22",
                 "1.21-51.0.21",
                 "1.21-51.0.18",
                 "1.21-51.0.17",
