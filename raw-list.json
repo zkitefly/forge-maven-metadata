@@ -125,6 +125,11 @@
         "version": "51.0.0"
     },
     {
+        "rawversion": "1.21.1-52.0.6",
+        "mcversion": "1.21.1",
+        "version": "52.0.6"
+    },
+    {
         "rawversion": "1.21.1-52.0.5",
         "mcversion": "1.21.1",
         "version": "52.0.5"
