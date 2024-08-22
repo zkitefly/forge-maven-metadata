@@ -12,10 +12,22 @@ def process_version(version):
     mcversion = parts[0]
     forgeversion = parts[1]
     branch = parts[2] if len(parts) > 2 else None
+
+    forge_parts = forgeversion.split('.')
+    if len(forge_parts) == 4:  # e.g., 1.2.3.4
+        count = int(forge_parts[-1])  # Use the last part as count
+    elif len(forge_parts) == 3:  # e.g., 1.2.3
+        count = int(forge_parts[0]) * 1000000 + int(forge_parts[1]) * 10000 + int(forge_parts[2])  # Create a large integer
+    else:
+        count = 0  # Default count if the structure doesn't match expected patterns
+
     return {
         "branch": branch,
+        "build": count,
         "mcversion": mcversion,
+        "modified": 0,
         "version": forgeversion,
+        "files": [],
         "rawversion": version
     }
 
@@ -39,10 +51,9 @@ def process_json(input_file, output_file):
         "promos": {}
     }
     
-    count = 1
     for version_data in processed_versions:
+        count = version_data["build"]  # Use the calculated build value as the count
         numbered_data["number"][str(count)] = version_data
-        count += 1
 
         mcversion = version_data["mcversion"]
         if mcversion not in mcversion_data:
