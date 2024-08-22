@@ -66,11 +66,10 @@ def process_json(input_file, output_file):
             mcversion_data[mcversion] = []
         mcversion_data[mcversion].append(version_data)
 
-    for version_data in processed_versions:
-        branch = version_data["branch"] if version_data["branch"] else "null"
-        if branch not in numbered_data["branches"]:
-            numbered_data["branches"][branch] = []
-        numbered_data["branches"][branch].append(version_data["build"])
+        # branch = version_data["branch"] if version_data["branch"] else "null"
+        # if branch not in numbered_data["branches"]:
+        #     numbered_data["branches"][branch] = []
+        # numbered_data["branches"][branch].append(version_data["build"])
 
     for mcversion, version_list in mcversion_data.items():
         write_to_mcversion_file(mcversion, version_list)
