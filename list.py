@@ -27,28 +27,7 @@ def process_version(version):
         "mcversion": mcversion,
         "modified": 2333333333,
         "version": forgeversion,
-        "files": [
-            [
-                "txt",
-                "changelog",
-                "2333333333333333333333333333333333333333"
-            ],
-            [
-                "zip",
-                "client",
-                "2333333333333333333333333333333333333333"
-            ],
-            [
-                "zip",
-                "server",
-                "2333333333333333333333333333333333333333"
-            ],
-            [
-                "zip",
-                "src",
-                "2333333333333333333333333333333333333333"
-            ]
-        ],
+        "files": ["jar", "installer"],
         "rawversion": version
     }
 
