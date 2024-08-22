@@ -13,10 +13,10 @@ def process_version(version):
     forgeversion = parts[1]
     branch = parts[2] if len(parts) > 2 else None
     return {
-        "rawversion": version,
+        "branch": branch,
         "mcversion": mcversion,
         "version": forgeversion,
-        "branch": branch
+        "rawversion": version
     }
 
 def process_json(input_file, output_file):
@@ -27,7 +27,23 @@ def process_json(input_file, output_file):
     processed_versions = [process_version(version) for version in versions]
 
     mcversion_data = {}
+    numbered_data = {
+        "adfocus": "271228",
+        "artifact": "forge",
+        "homepage": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+        "name": "Minecraft Forge",
+        "webpath": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+        "branches": {},
+        "mcversion": {},
+        "number": {},
+        "promos": {}
+    }
+    
+    count = 1
     for version_data in processed_versions:
+        numbered_data["number"][str(count)] = version_data
+        count += 1
+
         mcversion = version_data["mcversion"]
         if mcversion not in mcversion_data:
             mcversion_data[mcversion] = []
@@ -37,10 +53,10 @@ def process_json(input_file, output_file):
         write_to_mcversion_file(mcversion, version_list)
 
     with open("raw-" + output_file, 'w') as f:
-        json.dump(processed_versions, f, indent=4)
+        json.dump(numbered_data, f, indent=4)
 
     with open(output_file, 'w') as f:
-        json.dump(processed_versions, f)
+        json.dump(numbered_data, f)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
