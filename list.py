@@ -11,10 +11,12 @@ def process_version(version):
     parts = version.split('-')
     mcversion = parts[0]
     forgeversion = parts[1]
+    branch = parts[2] if len(parts) > 2 else None
     return {
         "rawversion": version,
         "mcversion": mcversion,
-        "version": forgeversion
+        "version": forgeversion,
+        "branch": branch
     }
 
 def process_json(input_file, output_file):
