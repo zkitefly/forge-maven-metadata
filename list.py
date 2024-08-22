@@ -25,9 +25,30 @@ def process_version(version):
         "branch": branch,
         "build": count,
         "mcversion": mcversion,
-        "modified": 0,
+        "modified": 2333333333,
         "version": forgeversion,
-        "files": [],
+        "files": [
+            [
+                "txt",
+                "changelog",
+                "2333333333333333333333333333333333333333"
+            ],
+            [
+                "zip",
+                "client",
+                "2333333333333333333333333333333333333333"
+            ],
+            [
+                "zip",
+                "server",
+                "2333333333333333333333333333333333333333"
+            ],
+            [
+                "zip",
+                "src",
+                "2333333333333333333333333333333333333333"
+            ]
+        ],
         "rawversion": version
     }
 
