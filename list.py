@@ -27,7 +27,7 @@ def process_version(version):
         "mcversion": mcversion,
         "modified": 2333333333,
         "version": forgeversion,
-        "files": ["jar", "installer"],
+        "files": ["jar", f"forge-{version}-installer.jar"],
         "rawversion": version
     }
 
