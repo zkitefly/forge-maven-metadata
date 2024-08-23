@@ -75,7 +75,7 @@ def process_json(input_file, output_file):
         write_to_mcversion_file(mcversion, version_list)
 
     with open("raw-" + output_file, 'w') as f:
-        json.dump(numbered_data, f, indent=4)
+        json.dump(numbered_data, f, indent=1)
 
     with open(output_file, 'w') as f:
         json.dump(numbered_data, f)
