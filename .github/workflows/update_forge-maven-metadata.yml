@@ -3,7 +3,7 @@ name: update_forge-maven-metadata
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* */6 * * *' # 每六个小时运行一次
+    - cron: '* */12 * * *' # 每12个小时运行一次
   repository_dispatch:
     types: [update_forge-maven-metadata]
   push:
