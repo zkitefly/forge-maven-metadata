@@ -28,7 +28,7 @@ def process_version(version):
         "modified": 2333333333,
         "version": forgeversion,
         "files": [["txt","changelog"],["jar","installer"],["zip","mdk"],["jar","universal"]],
-        "rawversion": version
+        # "rawversion": version
     }
 
 def process_json(input_file, output_file):
