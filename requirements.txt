@@ -1,4 +1,3 @@
 xmljson
 requests
-dateutil
 python-dateutil
