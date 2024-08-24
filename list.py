@@ -27,7 +27,7 @@ def process_version(version):
         "mcversion": mcversion,
         "modified": 0,
         "version": forgeversion,
-        "files": [["txt","changelog"],["jar","installer"],["zip","mdk"],["jar","universal"]],
+        "files": [["txt","changelog"],["jar","installer"]],
         # "rawversion": version
     }
 
