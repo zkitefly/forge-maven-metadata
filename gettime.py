@@ -31,15 +31,16 @@ def process_entry(key, entry):
     mcversion = entry.get('mcversion')
     version = entry.get('version')
     build = entry.get('build')
+    files = entry.get('files', [])
+
+    # 检查 files 中是否包含 ["jar", "installer"]
+    if not any(file_pair == ["jar", "installer"] for file_pair in files):
+        print(f"Build {build} with version {version} does not have a 'jar' and 'installer' combination. Skipping...")
+        return
 
     # 检查是否已存在该版本的时间信息
     if any(t['build'] == build and t['version'] == version for t in saved_times):
         print(f"Build {build} with version {version} already exists in time.json. Skipping...")
-        return
-    
-    # 如果 build 小于 685 或者不存在，跳过处理
-    if build < 685 or not build:
-        print(f"Build {build} with version {version} is too old or invalid. Skipping...")
         return
 
     # 组合下载链接

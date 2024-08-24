@@ -44,6 +44,7 @@ jobs:
           wget --debug -O forge-maven-metadata.xml "https://maven.minecraftforge.net/net/minecraftforge/forge/maven-metadata.xml"
           python3 xml_to_json.py forge-maven-metadata.xml forge-maven-metadata.json
           python3 list.py forge-maven-metadata.json list.json
+          python3 install.py
           python3 gettime.py
           git add -A
           if git diff-index --quiet HEAD; then
