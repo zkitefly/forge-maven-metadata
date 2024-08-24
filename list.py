@@ -25,7 +25,7 @@ def process_version(version):
         "branch": branch,
         "build": count,
         "mcversion": mcversion,
-        "modified": 2333333333,
+        "modified": 0,
         "version": forgeversion,
         "files": [["txt","changelog"],["jar","installer"],["zip","mdk"],["jar","universal"]],
         # "rawversion": version
@@ -71,11 +71,11 @@ def process_json(input_file, output_file):
         #     numbered_data["branches"][branch] = []
         # numbered_data["branches"][branch].append(version_data["build"])
 
-    for mcversion, version_list in mcversion_data.items():
-        write_to_mcversion_file(mcversion, version_list)
+    # for mcversion, version_list in mcversion_data.items():
+    #     write_to_mcversion_file(mcversion, version_list)
 
     with open("raw-" + output_file, 'w') as f:
-        json.dump(numbered_data, f, indent=1)
+        json.dump(numbered_data, f, indent=2)
 
     with open(output_file, 'w') as f:
         json.dump(numbered_data, f)
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     input_file = sys.argv[1]
     output_file = sys.argv[2]
 
-    if not os.path.exists("list"):
-        os.makedirs("list")
+    # if not os.path.exists("list"):
+    #     os.makedirs("list")
 
     process_json(input_file, output_file)
