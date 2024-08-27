@@ -60,7 +60,7 @@ def check_url(build_info):
     # 实时将结果保存到 install.json
     install_data.append(result)
     with open('install.json', 'w') as f:
-        json.dump(install_data, f, indent=4)
+        json.dump(install_data, f)
 
     print(f"Processed build {build}, hasinstall: {hasinstall}")
     return result
@@ -82,6 +82,3 @@ for item in install_data:
 # 将更新后的 list.json 写回文件
 with open('list.json', 'w') as f:
     json.dump(data, f)
-
-with open('raw-list.json', 'w') as f:
-    json.dump(data, f, indent=2)

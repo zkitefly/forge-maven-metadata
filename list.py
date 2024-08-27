@@ -27,7 +27,7 @@ def process_version(version):
         "mcversion": mcversion,
         "modified": 0,
         "version": forgeversion,
-        "files": [["txt","changelog"],["jar","installer"]],
+        "files": [["jar","installer"]],
         # "rawversion": version
     }
 
@@ -40,15 +40,15 @@ def process_json(input_file, output_file):
 
     mcversion_data = {}
     numbered_data = {
-        "adfocus": "271228",
+        # "adfocus": "271228",
         "artifact": "forge",
-        "homepage": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/",
-        "name": "Minecraft Forge",
+        # "homepage": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+        # "name": "Minecraft Forge",
         "webpath": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/",
-        "branches": {},
+        # "branches": {},
         "mcversion": {},
         "number": {},
-        "promos": {}
+        # "promos": {}
     }
     
     for version_data in processed_versions:
@@ -74,21 +74,9 @@ def process_json(input_file, output_file):
     # for mcversion, version_list in mcversion_data.items():
     #     write_to_mcversion_file(mcversion, version_list)
 
-    with open("raw-" + output_file, 'w') as f:
-        json.dump(numbered_data, f, indent=2)
-
     with open(output_file, 'w') as f:
         json.dump(numbered_data, f)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python3 list.py input.json output.json")
-        sys.exit(1)
-
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-
-    # if not os.path.exists("list"):
-    #     os.makedirs("list")
-
-    process_json(input_file, output_file)
+    process_json("forge-maven-metadata.json", "list.json")
+    os.remove("forge-maven-metadata.json")
